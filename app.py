@@ -117,10 +117,10 @@ with col2:
         st.session_state.zarlar.append(sonuc)
 
     if colb2.button("🔄 Skoru Sıfırla", use_container_width=True, key="reset"):
-    st.session_state.zarlar = []
-    st.session_state.son_zar = 1
-    st.session_state.anim = False
-    st.info("Skor sıfırlandı. Yeni zar atabilirsin.")
+        st.session_state.zarlar = []
+        st.session_state.son_zar = 1
+        st.session_state.anim = False
+        st.info("Skor sıfırlandı. Yeni zar atabilirsin.")
 
     # Oyuncu için istatistikler
     zarlar = st.session_state.zarlar
